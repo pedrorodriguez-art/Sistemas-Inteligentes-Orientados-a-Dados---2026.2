@@ -1,0 +1,72 @@
+{
+  "execucao_utc": "2026-09-11T13:58:27.261925+00:00",
+  "python": "3.13.14",
+  "entrada": "upa_bahia_202607.csv",
+  "entrada_sha256": "915b652388c2dcb24ccfcc4c0b628c55203cc82d03b579c51ed651113c79feec",
+  "pipeline_sha256": "e9c72965bbe09b7c067452bceb9e22324f8043d200b83704c2469d9dcb2d5c4a",
+  "encoding": "utf-8-sig",
+  "separador": ";",
+  "competencia_informada": "2026-07 (nome do arquivo; não verificada na fonte)",
+  "faixa_latitude_triagem": [
+    -14,
+    -12
+  ],
+  "faixa_longitude_triagem": [
+    -39,
+    -37
+  ],
+  "bytes_entrada": 37961,
+  "colunas_entrada": 56,
+  "recebidos": 98,
+  "cadastros_validos": 98,
+  "cadastros_pendentes": 0,
+  "registros_com_alertas": 98,
+  "candidatas_upa_por_nome": 12,
+  "candidatas_coordenadas_validas": 0,
+  "candidatas_coordenadas_reconstruidas": 12,
+  "alertas": {
+    "CO_UNIDADE_NAO_INTEIRO_TEXTUAL": 98,
+    "CO_TIPO_UNIDADE_AUSENTE": 98,
+    "LATITUDE_RECONSTRUIDA_REVISAR": 98,
+    "LONGITUDE_RECONSTRUIDA_REVISAR": 98
+  },
+  "transformacoes": {
+    "cabecalhos_aparados": 0,
+    "celulas_com_espacos_aparados": 0,
+    "coordenadas_reconstruidas": 196,
+    "pares_reconstruidos_para_revisao": 98,
+    "coordenadas_virgula_para_ponto": 0
+  },
+  "municipios_gestores": {
+    "292740": 98
+  },
+  "tipos_unidade": {
+    "42": 76,
+    "73": 18,
+    "36": 1,
+    "21": 2,
+    "20": 1
+  },
+  "saidas": {
+    "cadastros_tratados.csv": {
+      "registros": 98,
+      "sha256": "0d0eb91e0dc4a75c1a9e5e9ebed8349d80adbd9bc8ffd84a089103c089a83d3c"
+    },
+    "pendencias.csv": {
+      "registros": 98,
+      "sha256": "0d0eb91e0dc4a75c1a9e5e9ebed8349d80adbd9bc8ffd84a089103c089a83d3c"
+    },
+    "candidatas_upa_revisao.csv": {
+      "registros": 12,
+      "sha256": "6aac659408cbfd63b97591f9f177909f1dad4330a4fc74e613147c9c02cb2805"
+    },
+    "candidatas_coordenadas_validas.csv": {
+      "registros": 0,
+      "sha256": "df2edfb1d103e78b62bb9f28262b67e51710a0a278fc4408edf82fdd47f9aa1f"
+    },
+    "candidatas_coordenadas_reconstruidas.csv": {
+      "registros": 12,
+      "sha256": "6aac659408cbfd63b97591f9f177909f1dad4330a4fc74e613147c9c02cb2805"
+    }
+  }
+}

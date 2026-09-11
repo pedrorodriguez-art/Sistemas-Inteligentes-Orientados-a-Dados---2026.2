@@ -1,0 +1,15 @@
+Execução UTC: 2026-09-11T13:58:27.261925+00:00
+Entrada: upa_bahia_202607.csv
+Registros recebidos: 98
+Cadastros válidos pelos critérios CNES/nome: 98
+Candidatas a UPA pelo nome: 12
+Pares reconstruídos em toda a entrada: 98
+Candidatas a UPA com coordenadas reconstruídas: 12
+Candidatas a UPA com coordenadas válidas sem reconstrução: 0
+Coordenadas reconstruídas são candidatas para revisão; os valores originais foram preservados.
+ALERTA CO_UNIDADE_NAO_INTEIRO_TEXTUAL: 98 registros
+ALERTA CO_TIPO_UNIDADE_AUSENTE: 98 registros
+ALERTA LATITUDE_RECONSTRUIDA_REVISAR: 98 registros
+ALERTA LONGITUDE_RECONSTRUIDA_REVISAR: 98 registros
+CONCLUÍDO COM ALERTAS
+As faixas são aproximadas. A saída não certifica endereço, localização em Salvador, atendimento SUS ou funcionamento.
